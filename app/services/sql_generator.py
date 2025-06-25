@@ -49,9 +49,12 @@ def clean_sql(sql, user_input):
     # Handle BETWEEN queries from natural language
     if "between" in user_input.lower():
         range_match = re.search(r'between\s+(\d+)\s+(and|-)\s+(\d+)', user_input.lower())
-        if range_match:
-            low, high = range_match.group(1), range_match.group(3)
-            sql = re.sub(r'Salary\s*[^\d]*(\d+)', f'Salary BETWEEN {low} AND {high}', sql, flags=re.IGNORECASE)
+    if range_match:
+        low, high = range_match.group(1), range_match.group(3)
+        # Replace any existing Salary condition with BETWEEN
+        sql = re.sub(r'Salary\s*(=|<|>|<=|>=)?\s*\d+', f'Salary BETWEEN {low} AND {high}', sql, flags=re.IGNORECASE)
+    # Remove any invalid trailing 'to <value>' from SQL (e.g., "BETWEEN 10000 AND 20000 to 20000")
+    sql = re.sub(r'\bto\s+\d+', '', sql, flags=re.IGNORECASE)
 
     # Detect incorrect or missing comparison operators
     match = re.search(r'Salary\s*(=|<|>|<=|>=)?\s*(\d+)', sql)
