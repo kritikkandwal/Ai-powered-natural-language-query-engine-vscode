@@ -1,0 +1,4 @@
+    {"question": "Show all employees", "sql": "SELECT * FROM Employee;"}
+    {"question": "Show employees with salary greater than 50000", "sql": "SELECT * FROM Employee WHERE Salary > 50000;"}
+    {"question": "Find employees earning less than 40000", "sql": "SELECT EmpID, Salary FROM Employee WHERE Salary < 40000;"}
+    {"question": "List employees with salaries between 45000 and 60000", "sql": "SELECT EmpID FROM Employee WHERE Salary BETWEEN 45000 AND 60000;"}
