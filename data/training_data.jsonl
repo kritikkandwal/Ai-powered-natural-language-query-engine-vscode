@@ -1,0 +1,281 @@
+    {"question": "Show all employees", "sql": "SELECT * FROM Employee;"}
+    {"question": "Show employees with salary greater than 50000", "sql": "SELECT * FROM Employee WHERE Salary > 50000;"}
+    {"question": "Find employees earning less than 40000", "sql": "SELECT EmpID, Salary FROM Employee WHERE Salary < 40000;"}
+    {"question": "List employees with salaries between 45000 and 60000", "sql": "SELECT EmpID FROM Employee WHERE Salary BETWEEN 45000 AND 60000;"}
+    // 130 select all
+    {"input": "translate English to SQL: Show all employees earning above 5000", "target": "SELECT EmpID, Salary FROM Employee WHERE Salary > 5000"}
+    {"input": "translate English to SQL: List salaries greater than 5000", "target": "SELECT EmpID, Salary FROM Employee WHERE Salary > 5000"}
+    {"input": "translate English to SQL: Give me records where salary exceeds 5000", "target": "SELECT EmpID, Salary FROM Employee WHERE Salary > 5000"}
+    {"input": "translate English to SQL: Show all employees", "target": "SELECT EmpID, Salary FROM Employee"}
+    {"input": "translate English to SQL: List all employees", "target": "SELECT EmpID, Salary FROM Employee"}
+    {"input": "translate English to SQL: Display all employee records", "target": "SELECT EmpID, Salary FROM Employee"}
+    {"input": "translate English to SQL: Give me all employee data", "target": "SELECT EmpID, Salary FROM Employee"}
+    {"input": "translate English to SQL: Retrieve complete employee list", "target": "SELECT EmpID, Salary FROM Employee"}
+    {"input": "translate English to SQL: Get all staff members", "target": "SELECT EmpID, Salary FROM Employee"}
+    {"input": "translate English to SQL: Show complete list of employees", "target": "SELECT EmpID, Salary FROM Employee"}
+    {"input": "translate English to SQL: Display entire employee table", "target": "SELECT EmpID, Salary FROM Employee"}
+    {"input": "translate English to SQL: Fetch all employee details", "target": "SELECT EmpID, Salary FROM Employee"}
+    {"input": "translate English to SQL: Retrieve all rows from employee table", "target": "SELECT EmpID, Salary FROM Employee"}
+    {"input": "translate English to SQL: I want all employees", "target": "SELECT EmpID, Salary FROM Employee"}
+    {"input": "translate English to SQL: Show me the employee database", "target": "SELECT EmpID, Salary FROM Employee"}
+    {"input": "translate English to SQL: Provide full employee list", "target": "SELECT EmpID, Salary FROM Employee"}
+    {"input": "translate English to SQL: Get all records from Employee", "target": "SELECT EmpID, Salary FROM Employee"}
+    {"input": "translate English to SQL: List everyone working here", "target": "SELECT EmpID, Salary FROM Employee"}
+    {"input": "translate English to SQL: Show entire staff data", "target": "SELECT EmpID, Salary FROM Employee"}
+    {"input": "translate English to SQL: Print all employee entries", "target": "SELECT EmpID, Salary FROM Employee"}
+    {"input": "translate English to SQL: Show all records from employee table", "target": "SELECT EmpID, Salary FROM Employee"}
+    {"input": "translate English to SQL: Return full employee dataset", "target": "SELECT EmpID, Salary FROM Employee"}
+    {"input": "translate English to SQL: Get all entries from Employee table", "target": "SELECT EmpID, Salary FROM Employee"}
+    {"input": "translate English to SQL: Give complete employee information", "target": "SELECT EmpID, Salary FROM Employee"}
+    {"input": "translate English to SQL: Output entire employee data", "target": "SELECT EmpID, Salary FROM Employee"}
+    {"input": "translate English to SQL: Export all employee records", "target": "SELECT EmpID, Salary FROM Employee"}
+    {"input": "translate English to SQL: Who are all the employees?", "target": "SELECT EmpID, Salary FROM Employee"}
+    {"input": "translate English to SQL: Print all people in employee table", "target": "SELECT EmpID, Salary FROM Employee"}
+    {"input": "translate English to SQL: List full employees list", "target": "SELECT EmpID, Salary FROM Employee"}
+    {"input": "translate English to SQL: Complete employee records", "target": "SELECT EmpID, Salary FROM Employee"}
+    {"input": "translate English to SQL: Show everybody working", "target": "SELECT EmpID, Salary FROM Employee"}
+    {"input": "translate English to SQL: Pull all employee rows", "target": "SELECT EmpID, Salary FROM Employee"}
+    {"input": "translate English to SQL: Load all employees", "target": "SELECT EmpID, Salary FROM Employee"}
+    {"input": "translate English to SQL: Display all persons from employee table", "target": "SELECT EmpID, Salary FROM Employee"}
+    {"input": "translate English to SQL: Show all employees", "target": "SELECT EmpID, Salary FROM Employee"}
+    {"input": "translate English to SQL: List all employees", "target": "SELECT EmpID, Salary FROM Employee"}
+    {"input": "translate English to SQL: Display all employee data", "target": "SELECT EmpID, Salary FROM Employee"}
+    {"input": "translate English to SQL: Retrieve all employees", "target": "SELECT EmpID, Salary FROM Employee"}
+    {"input": "translate English to SQL: Get all employee records", "target": "SELECT EmpID, Salary FROM Employee"}
+    {"input": "translate English to SQL: Show complete employee list", "target": "SELECT EmpID, Salary FROM Employee"}
+    {"input": "translate English to SQL: List every employee", "target": "SELECT EmpID, Salary FROM Employee"}
+    {"input": "translate English to SQL: Display employee table", "target": "SELECT EmpID, Salary FROM Employee"}
+    {"input": "translate English to SQL: Fetch all employee data", "target": "SELECT EmpID, Salary FROM Employee"}
+    {"input": "translate English to SQL: Get complete employee records", "target": "SELECT EmpID, Salary FROM Employee"}
+    {"input": "translate English to SQL: Show the entire employee list", "target": "SELECT EmpID, Salary FROM Employee"}
+    {"input": "translate English to SQL: Show me all employees", "target": "SELECT EmpID, Salary FROM Employee"}
+    {"input": "translate English to SQL: List full employee records", "target": "SELECT EmpID, Salary FROM Employee"}
+    {"input": "translate English to SQL: Retrieve full employee list", "target": "SELECT EmpID, Salary FROM Employee"}
+    {"input": "translate English to SQL: Give me employee data", "target": "SELECT EmpID, Salary FROM Employee"}
+    {"input": "translate English to SQL: Pull all employees", "target": "SELECT EmpID, Salary FROM Employee"}
+    {"input": "translate English to SQL: Output all employees", "target": "SELECT EmpID, Salary FROM Employee"}
+    {"input": "translate English to SQL: Show all staff members", "target": "SELECT EmpID, Salary FROM Employee"}
+    {"input": "translate English to SQL: List entire staff", "target": "SELECT EmpID, Salary FROM Employee"}
+    {"input": "translate English to SQL: Display staff information", "target": "SELECT EmpID, Salary FROM Employee"}
+    {"input": "translate English to SQL: Retrieve staff records", "target": "SELECT EmpID, Salary FROM Employee"}
+    {"input": "translate English to SQL: Fetch all staff", "target": "SELECT EmpID, Salary FROM Employee"}
+    {"input": "translate English to SQL: Show employees list", "target": "SELECT EmpID, Salary FROM Employee"}
+    {"input": "translate English to SQL: Give me all staff data", "target": "SELECT EmpID, Salary FROM Employee"}
+    {"input": "translate English to SQL: Get entire employee list", "target": "SELECT EmpID, Salary FROM Employee"}
+    {"input": "translate English to SQL: List all people working", "target": "SELECT EmpID, Salary FROM Employee"}
+    {"input": "translate English to SQL: Show everyone employed", "target": "SELECT EmpID, Salary FROM Employee"}
+    {"input": "translate English to SQL: Get the full employee roster", "target": "SELECT EmpID, Salary FROM Employee"}
+    {"input": "translate English to SQL: Show company employees", "target": "SELECT EmpID, Salary FROM Employee"}
+    {"input": "translate English to SQL: List all workers", "target": "SELECT EmpID, Salary FROM Employee"}
+    {"input": "translate English to SQL: Display all worker data", "target": "SELECT EmpID, Salary FROM Employee"}
+    {"input": "translate English to SQL: Retrieve entire workforce", "target": "SELECT EmpID, Salary FROM Employee"}
+    {"input": "translate English to SQL: Show complete employee data", "target": "SELECT EmpID, Salary FROM Employee"}
+    {"input": "translate English to SQL: List every person employed", "target": "SELECT EmpID, Salary FROM Employee"}
+    {"input": "translate English to SQL: Fetch full employee list", "target": "SELECT EmpID, Salary FROM Employee"}
+    {"input": "translate English to SQL: Get employee list", "target": "SELECT EmpID, Salary FROM Employee"}
+    {"input": "translate English to SQL: Display everyone working", "target": "SELECT EmpID, Salary FROM Employee"}
+    {"input": "translate English to SQL: List entire employee database", "target": "SELECT EmpID, Salary FROM Employee"}
+    {"input": "translate English to SQL: Show the full workforce", "target": "SELECT EmpID, Salary FROM Employee"}
+    {"input": "translate English to SQL: Give me full staff records", "target": "SELECT EmpID, Salary FROM Employee"}
+    {"input": "translate English to SQL: Output full employee data", "target": "SELECT EmpID, Salary FROM Employee"}
+    {"input": "translate English to SQL: Display entire workforce records", "target": "SELECT EmpID, Salary FROM Employee"}
+    {"input": "translate English to SQL: Pull full employee records", "target": "SELECT EmpID, Salary FROM Employee"}
+    {"input": "translate English to SQL: Get the employee table", "target": "SELECT EmpID, Salary FROM Employee"}
+    {"input": "translate English to SQL: List every staff record", "target": "SELECT EmpID, Salary FROM Employee"}
+    {"input": "translate English to SQL: Retrieve entire employee data", "target": "SELECT EmpID, Salary FROM Employee"}
+    {"input": "translate English to SQL: Show me the whole employee database", "target": "SELECT EmpID, Salary FROM Employee"}
+    {"input": "translate English to SQL: Display all employee profiles", "target": "SELECT EmpID, Salary FROM Employee"}
+    {"input": "translate English to SQL: Show all records of employees", "target": "SELECT EmpID, Salary FROM Employee"}
+    {"input": "translate English to SQL: List employee information", "target": "SELECT EmpID, Salary FROM Employee"}
+    {"input": "translate English to SQL: Get employee information", "target": "SELECT EmpID, Salary FROM Employee"}
+    {"input": "translate English to SQL: Fetch all employment data", "target": "SELECT EmpID, Salary FROM Employee"}
+    {"input": "translate English to SQL: Give me all employment records", "target": "SELECT EmpID, Salary FROM Employee"}
+    {"input": "translate English to SQL: Show entire personnel list", "target": "SELECT EmpID, Salary FROM Employee"}
+    {"input": "translate English to SQL: List everyone hired", "target": "SELECT EmpID, Salary FROM Employee"}
+    {"input": "translate English to SQL: Retrieve everyone employed", "target": "SELECT EmpID, Salary FROM Employee"}
+    {"input": "translate English to SQL: Get all employees working here", "target": "SELECT EmpID, Salary FROM Employee"}
+    {"input": "translate English to SQL: Show company staff", "target": "SELECT EmpID, Salary FROM Employee"}
+    {"input": "translate English to SQL: Display complete employee registry", "target": "SELECT EmpID, Salary FROM Employee"}
+    {"input": "translate English to SQL: Retrieve all personnel data", "target": "SELECT EmpID, Salary FROM Employee"}
+    {"input": "translate English to SQL: List full employment records", "target": "SELECT EmpID, Salary FROM Employee"}
+    {"input": "translate English to SQL: Get staff list", "target": "SELECT EmpID, Salary FROM Employee"}
+    {"input": "translate English to SQL: Display workforce database", "target": "SELECT EmpID, Salary FROM Employee"}
+    {"input": "translate English to SQL: Output employee directory", "target": "SELECT EmpID, Salary FROM Employee"}
+    {"input": "translate English to SQL: Fetch workforce records", "target": "SELECT EmpID, Salary FROM Employee"}
+    {"input": "translate English to SQL: Retrieve employment table", "target": "SELECT EmpID, Salary FROM Employee"}
+    {"input": "translate English to SQL: Show personnel database", "target": "SELECT EmpID, Salary FROM Employee"}
+    {"input": "translate English to SQL: List all staff information", "target": "SELECT EmpID, Salary FROM Employee"}
+    {"input": "translate English to SQL: Fetch complete staff data", "target": "SELECT EmpID, Salary FROM Employee"}
+    {"input": "translate English to SQL: Get entire staff records", "target": "SELECT EmpID, Salary FROM Employee"}
+    {"input": "translate English to SQL: Display the employee list", "target": "SELECT EmpID, Salary FROM Employee"}
+    {"input": "translate English to SQL: Retrieve worker details", "target": "SELECT EmpID, Salary FROM Employee"}
+    {"input": "translate English to SQL: Show the full employee table", "target": "SELECT EmpID, Salary FROM Employee"}
+    {"input": "translate English to SQL: List all personnel", "target": "SELECT EmpID, Salary FROM Employee"}
+    {"input": "translate English to SQL: Display staff directory", "target": "SELECT EmpID, Salary FROM Employee"}
+    {"input": "translate English to SQL: Retrieve staff information", "target": "SELECT EmpID, Salary FROM Employee"}
+    {"input": "translate English to SQL: Get all employee entries", "target": "SELECT EmpID, Salary FROM Employee"}
+    {"input": "translate English to SQL: Fetch the full workforce list", "target": "SELECT EmpID, Salary FROM Employee"}
+    {"input": "translate English to SQL: Show me all worker details", "target": "SELECT EmpID, Salary FROM Employee"}
+    {"input": "translate English to SQL: Display all employee records", "target": "SELECT EmpID, Salary FROM Employee"}
+    {"input": "translate English to SQL: List all company employees", "target": "SELECT EmpID, Salary FROM Employee"}
+    {"input": "translate English to SQL: Retrieve complete employee list", "target": "SELECT EmpID, Salary FROM Employee"}
+    {"input": "translate English to SQL: Get the full list of employees", "target": "SELECT EmpID, Salary FROM Employee"}
+    {"input": "translate English to SQL: Show all available employees", "target": "SELECT EmpID, Salary FROM Employee"}
+    {"input": "translate English to SQL: List entire employment roster", "target": "SELECT EmpID, Salary FROM Employee"}
+    {"input": "translate English to SQL: Fetch full employment list", "target": "SELECT EmpID, Salary FROM Employee"}
+    {"input": "translate English to SQL: Get complete staff list", "target": "SELECT EmpID, Salary FROM Employee"}
+    {"input": "translate English to SQL: Display complete list of employees", "target": "SELECT EmpID, Salary FROM Employee"}
+    {"input": "translate English to SQL: Retrieve full company employee records", "target": "SELECT EmpID, Salary FROM Employee"}
+    {"input": "translate English to SQL: Fetch employee information", "target": "SELECT EmpID, Salary FROM Employee"}
+    {"input": "translate English to SQL: Show company personnel", "target": "SELECT EmpID, Salary FROM Employee"}
+    {"input": "translate English to SQL: List full workforce data", "target": "SELECT EmpID, Salary FROM Employee"}
+    {"input": "translate English to SQL: Display entire employment table", "target": "SELECT EmpID, Salary FROM Employee"}
+    {"input": "translate English to SQL: Retrieve all worker profiles", "target": "SELECT EmpID, Salary FROM Employee"}
+    {"input": "translate English to SQL: Get full personnel list", "target": "SELECT EmpID, Salary FROM Employee"}
+    {"input": "translate English to SQL: Fetch entire staff information", "target": "SELECT EmpID, Salary FROM Employee"}
+
+
+
+    // less than 115 data 
+    {"input": "translate English to SQL: Show employees earning less than 30000", "target": "SELECT EmpID, Salary FROM Employee WHERE Salary < 30000"}
+{"input": "translate English to SQL: List employees with salary under 30000", "target": "SELECT EmpID, Salary FROM Employee WHERE Salary < 30000"}
+{"input": "translate English to SQL: Display staff making below 30000", "target": "SELECT EmpID, Salary FROM Employee WHERE Salary < 30000"}
+{"input": "translate English to SQL: Find employees earning below 30000", "target": "SELECT EmpID, Salary FROM Employee WHERE Salary < 30000"}
+{"input": "translate English to SQL: Retrieve employees with pay less than 30000", "target": "SELECT EmpID, Salary FROM Employee WHERE Salary < 30000"}
+{"input": "translate English to SQL: Get all workers earning less than 30000", "target": "SELECT EmpID, Salary FROM Employee WHERE Salary < 30000"}
+{"input": "translate English to SQL: Show me employees paid under 30000", "target": "SELECT EmpID, Salary FROM Employee WHERE Salary < 30000"}
+{"input": "translate English to SQL: Who earns less than 30000?", "target": "SELECT EmpID, Salary FROM Employee WHERE Salary < 30000"}
+{"input": "translate English to SQL: Give list of employees earning < 30000", "target": "SELECT EmpID, Salary FROM Employee WHERE Salary < 30000"}
+{"input": "translate English to SQL: Employees with salary lower than 30000", "target": "SELECT EmpID, Salary FROM Employee WHERE Salary < 30000"}
+{"input": "translate English to SQL: List staff whose salary is below 30000", "target": "SELECT EmpID, Salary FROM Employee WHERE Salary < 30000"}
+{"input": "translate English to SQL: Staff making less than 30000", "target": "SELECT EmpID, Salary FROM Employee WHERE Salary < 30000"}
+{"input": "translate English to SQL: Fetch all employees earning under 30000", "target": "SELECT EmpID, Salary FROM Employee WHERE Salary < 30000"}
+{"input": "translate English to SQL: Show workers paid less than 30000", "target": "SELECT EmpID, Salary FROM Employee WHERE Salary < 30000"}
+{"input": "translate English to SQL: Who are the low earners under 30000?", "target": "SELECT EmpID, Salary FROM Employee WHERE Salary < 30000"}
+{"input": "translate English to SQL: Display staff making below 6830", "target": "SELECT EmpID, Salary FROM Employee WHERE Salary < 6830"}
+{"input": "translate English to SQL: List staff paid less than 15093", "target": "SELECT EmpID, Salary FROM Employee WHERE Salary < 15093"}
+{"input": "translate English to SQL: Display staff making below 16978", "target": "SELECT EmpID, Salary FROM Employee WHERE Salary < 16978"}
+{"input": "translate English to SQL: Employees with salary below 12004", "target": "SELECT EmpID, Salary FROM Employee WHERE Salary < 12004"}
+{"input": "translate English to SQL: Employees with salary below 24271", "target": "SELECT EmpID, Salary FROM Employee WHERE Salary < 24271"}
+{"input": "translate English to SQL: Employees with salary below 19266", "target": "SELECT EmpID, Salary FROM Employee WHERE Salary < 19266"}
+{"input": "translate English to SQL: Fetch employees whose salary is under 12460", "target": "SELECT EmpID, Salary FROM Employee WHERE Salary < 12460"}
+{"input": "translate English to SQL: Get all workers earning less than 19365", "target": "SELECT EmpID, Salary FROM Employee WHERE Salary < 19365"}
+{"input": "translate English to SQL: Display staff making below 15412", "target": "SELECT EmpID, Salary FROM Employee WHERE Salary < 15412"}
+{"input": "translate English to SQL: List staff paid less than 22216", "target": "SELECT EmpID, Salary FROM Employee WHERE Salary < 22216"}
+{"input": "translate English to SQL: Who earns less than 6919?", "target": "SELECT EmpID, Salary FROM Employee WHERE Salary < 6919"}
+{"input": "translate English to SQL: Employees with salary below 7805", "target": "SELECT EmpID, Salary FROM Employee WHERE Salary < 7805"}
+{"input": "translate English to SQL: Employees with salary below 19359", "target": "SELECT EmpID, Salary FROM Employee WHERE Salary < 19359"}
+{"input": "translate English to SQL: List employees with salary under 7569", "target": "SELECT EmpID, Salary FROM Employee WHERE Salary < 7569"}
+{"input": "translate English to SQL: List staff paid less than 27636", "target": "SELECT EmpID, Salary FROM Employee WHERE Salary < 27636"}
+{"input": "translate English to SQL: Find employees earning below 26585", "target": "SELECT EmpID, Salary FROM Employee WHERE Salary < 26585"}
+{"input": "translate English to SQL: Fetch employees whose salary is under 8659", "target": "SELECT EmpID, Salary FROM Employee WHERE Salary < 8659"}
+{"input": "translate English to SQL: Display staff making below 15142", "target": "SELECT EmpID, Salary FROM Employee WHERE Salary < 15142"}
+{"input": "translate English to SQL: List staff paid less than 20466", "target": "SELECT EmpID, Salary FROM Employee WHERE Salary < 20466"}
+{"input": "translate English to SQL: Retrieve employees with pay less than 13779", "target": "SELECT EmpID, Salary FROM Employee WHERE Salary < 13779"}
+{"input": "translate English to SQL: Show employees earning less than 27450", "target": "SELECT EmpID, Salary FROM Employee WHERE Salary < 27450"}
+{"input": "translate English to SQL: List employees with salary under 13708", "target": "SELECT EmpID, Salary FROM Employee WHERE Salary < 13708"}
+{"input": "translate English to SQL: Who earns less than 25667?", "target": "SELECT EmpID, Salary FROM Employee WHERE Salary < 25667"}
+{"input": "translate English to SQL: List staff paid less than 17695", "target": "SELECT EmpID, Salary FROM Employee WHERE Salary < 17695"}
+{"input": "translate English to SQL: Retrieve employees with pay less than 27755", "target": "SELECT EmpID, Salary FROM Employee WHERE Salary < 27755"}
+{"input": "translate English to SQL: Fetch employees whose salary is under 28679", "target": "SELECT EmpID, Salary FROM Employee WHERE Salary < 28679"}
+{"input": "translate English to SQL: Who earns less than 24222?", "target": "SELECT EmpID, Salary FROM Employee WHERE Salary < 24222"}
+{"input": "translate English to SQL: Fetch employees whose salary is under 12523", "target": "SELECT EmpID, Salary FROM Employee WHERE Salary < 12523"}
+{"input": "translate English to SQL: Find employees earning below 23666", "target": "SELECT EmpID, Salary FROM Employee WHERE Salary < 23666"}
+{"input": "translate English to SQL: Retrieve employees with pay less than 23445", "target": "SELECT EmpID, Salary FROM Employee WHERE Salary < 23445"}
+{"input": "translate English to SQL: Display staff making below 18318", "target": "SELECT EmpID, Salary FROM Employee WHERE Salary < 18318"}
+{"input": "translate English to SQL: Show employees earning less than 14028", "target": "SELECT EmpID, Salary FROM Employee WHERE Salary < 14028"}
+{"input": "translate English to SQL: Who earns less than 27234?", "target": "SELECT EmpID, Salary FROM Employee WHERE Salary < 27234"}
+{"input": "translate English to SQL: List employees with salary under 27917", "target": "SELECT EmpID, Salary FROM Employee WHERE Salary < 27917"}
+{"input": "translate English to SQL: Who earns less than 24119?", "target": "SELECT EmpID, Salary FROM Employee WHERE Salary < 24119"}
+{"input": "translate English to SQL: Display staff making below 25314", "target": "SELECT EmpID, Salary FROM Employee WHERE Salary < 25314"}
+{"input": "translate English to SQL: Retrieve employees with pay less than 9563", "target": "SELECT EmpID, Salary FROM Employee WHERE Salary < 9563"}
+{"input": "translate English to SQL: Fetch employees whose salary is under 15274", "target": "SELECT EmpID, Salary FROM Employee WHERE Salary < 15274"}
+{"input": "translate English to SQL: Retrieve employees with pay less than 11973", "target": "SELECT EmpID, Salary FROM Employee WHERE Salary < 11973"}
+{"input": "translate English to SQL: Show employees earning less than 27642", "target": "SELECT EmpID, Salary FROM Employee WHERE Salary < 27642"}
+{"input": "translate English to SQL: Show employees earning less than 13097", "target": "SELECT EmpID, Salary FROM Employee WHERE Salary < 13097"}
+{"input": "translate English to SQL: Show employees earning less than 28609", "target": "SELECT EmpID, Salary FROM Employee WHERE Salary < 28609"}
+{"input": "translate English to SQL: Who earns less than 20290?", "target": "SELECT EmpID, Salary FROM Employee WHERE Salary < 20290"}
+{"input": "translate English to SQL: Fetch employees whose salary is under 11391", "target": "SELECT EmpID, Salary FROM Employee WHERE Salary < 11391"}
+{"input": "translate English to SQL: Retrieve employees with pay less than 11743", "target": "SELECT EmpID, Salary FROM Employee WHERE Salary < 11743"}
+{"input": "translate English to SQL: Find employees earning below 12812", "target": "SELECT EmpID, Salary FROM Employee WHERE Salary < 12812"}
+{"input": "translate English to SQL: List staff paid less than 9441", "target": "SELECT EmpID, Salary FROM Employee WHERE Salary < 9441"}
+{"input": "translate English to SQL: Fetch employees whose salary is under 18573", "target": "SELECT EmpID, Salary FROM Employee WHERE Salary < 18573"}
+{"input": "translate English to SQL: Employees with salary below 8050", "target": "SELECT EmpID, Salary FROM Employee WHERE Salary < 8050"}
+{"input": "translate English to SQL: Show employees earning less than 20925", "target": "SELECT EmpID, Salary FROM Employee WHERE Salary < 20925"}
+{"input": "translate English to SQL: Who earns less than 8785?", "target": "SELECT EmpID, Salary FROM Employee WHERE Salary < 8785"}
+{"input": "translate English to SQL: Fetch employees whose salary is under 12902", "target": "SELECT EmpID, Salary FROM Employee WHERE Salary < 12902"}
+{"input": "translate English to SQL: List staff paid less than 7471", "target": "SELECT EmpID, Salary FROM Employee WHERE Salary < 7471"}
+{"input": "translate English to SQL: Display staff making below 28525", "target": "SELECT EmpID, Salary FROM Employee WHERE Salary < 28525"}
+{"input": "translate English to SQL: Fetch employees whose salary is under 21919", "target": "SELECT EmpID, Salary FROM Employee WHERE Salary < 21919"}
+{"input": "translate English to SQL: Show employees earning less than 5358", "target": "SELECT EmpID, Salary FROM Employee WHERE Salary < 5358"}
+{"input": "translate English to SQL: Find employees earning below 15446", "target": "SELECT EmpID, Salary FROM Employee WHERE Salary < 15446"}
+{"input": "translate English to SQL: Get all workers earning less than 18067", "target": "SELECT EmpID, Salary FROM Employee WHERE Salary < 18067"}
+{"input": "translate English to SQL: List staff paid less than 12612", "target": "SELECT EmpID, Salary FROM Employee WHERE Salary < 12612"}
+{"input": "translate English to SQL: List employees with salary under 19701", "target": "SELECT EmpID, Salary FROM Employee WHERE Salary < 19701"}
+{"input": "translate English to SQL: Fetch employees whose salary is under 21020", "target": "SELECT EmpID, Salary FROM Employee WHERE Salary < 21020"}
+{"input": "translate English to SQL: Get all workers earning less than 20197", "target": "SELECT EmpID, Salary FROM Employee WHERE Salary < 20197"}
+{"input": "translate English to SQL: List employees with salary under 22855", "target": "SELECT EmpID, Salary FROM Employee WHERE Salary < 22855"}
+{"input": "translate English to SQL: Show employees earning less than 8159", "target": "SELECT EmpID, Salary FROM Employee WHERE Salary < 8159"}
+{"input": "translate English to SQL: List employees with salary under 29074", "target": "SELECT EmpID, Salary FROM Employee WHERE Salary < 29074"}
+{"input": "translate English to SQL: List employees with salary under 19804", "target": "SELECT EmpID, Salary FROM Employee WHERE Salary < 19804"}
+{"input": "translate English to SQL: Employees with salary below 26556", "target": "SELECT EmpID, Salary FROM Employee WHERE Salary < 26556"}
+{"input": "translate English to SQL: Retrieve employees with pay less than 13997", "target": "SELECT EmpID, Salary FROM Employee WHERE Salary < 13997"}
+{"input": "translate English to SQL: Who earns less than 26995?", "target": "SELECT EmpID, Salary FROM Employee WHERE Salary < 26995"}
+{"input": "translate English to SQL: Fetch employees whose salary is under 8151", "target": "SELECT EmpID, Salary FROM Employee WHERE Salary < 8151"}
+{"input": "translate English to SQL: List staff paid less than 28567", "target": "SELECT EmpID, Salary FROM Employee WHERE Salary < 28567"}
+{"input": "translate English to SQL: Fetch employees whose salary is under 23640", "target": "SELECT EmpID, Salary FROM Employee WHERE Salary < 23640"}
+{"input": "translate English to SQL: Who earns less than 27641?", "target": "SELECT EmpID, Salary FROM Employee WHERE Salary < 27641"}
+{"input": "translate English to SQL: Display staff making below 13238", "target": "SELECT EmpID, Salary FROM Employee WHERE Salary < 13238"}
+{"input": "translate English to SQL: Employees with salary below 6306", "target": "SELECT EmpID, Salary FROM Employee WHERE Salary < 6306"}
+{"input": "translate English to SQL: List staff paid less than 9505", "target": "SELECT EmpID, Salary FROM Employee WHERE Salary < 9505"}
+{"input": "translate English to SQL: Who earns less than 29724?", "target": "SELECT EmpID, Salary FROM Employee WHERE Salary < 29724"}
+{"input": "translate English to SQL: Retrieve employees with pay less than 8474", "target": "SELECT EmpID, Salary FROM Employee WHERE Salary < 8474"}
+{"input": "translate English to SQL: Fetch employees whose salary is under 29428", "target": "SELECT EmpID, Salary FROM Employee WHERE Salary < 29428"}
+{"input": "translate English to SQL: Display staff making below 24297", "target": "SELECT EmpID, Salary FROM Employee WHERE Salary < 24297"}
+{"input": "translate English to SQL: Retrieve employees with pay less than 12319", "target": "SELECT EmpID, Salary FROM Employee WHERE Salary < 12319"}
+{"input": "translate English to SQL: Fetch employees whose salary is under 11234", "target": "SELECT EmpID, Salary FROM Employee WHERE Salary < 11234"}
+{"input": "translate English to SQL: List staff paid less than 22098", "target": "SELECT EmpID, Salary FROM Employee WHERE Salary < 22098"}
+{"input": "translate English to SQL: Employees with salary below 15177", "target": "SELECT EmpID, Salary FROM Employee WHERE Salary < 15177"}
+{"input": "translate English to SQL: Display staff making below 25764", "target": "SELECT EmpID, Salary FROM Employee WHERE Salary < 25764"}
+{"input": "translate English to SQL: Fetch employees whose salary is under 5262", "target": "SELECT EmpID, Salary FROM Employee WHERE Salary < 5262"}
+{"input": "translate English to SQL: Who earns less than 26579?", "target": "SELECT EmpID, Salary FROM Employee WHERE Salary < 26579"}
+{"input": "translate English to SQL: Fetch employees whose salary is under 28097", "target": "SELECT EmpID, Salary FROM Employee WHERE Salary < 28097"}
+{"input": "translate English to SQL: Who earns less than 16421?", "target": "SELECT EmpID, Salary FROM Employee WHERE Salary < 16421"}
+{"input": "translate English to SQL: Display staff making below 16233", "target": "SELECT EmpID, Salary FROM Employee WHERE Salary < 16233"}
+{"input": "translate English to SQL: Display staff making below 25270", "target": "SELECT EmpID, Salary FROM Employee WHERE Salary < 25270"}
+{"input": "translate English to SQL: Get all workers earning less than 27221", "target": "SELECT EmpID, Salary FROM Employee WHERE Salary < 27221"}
+{"input": "translate English to SQL: Fetch employees whose salary is under 15107", "target": "SELECT EmpID, Salary FROM Employee WHERE Salary < 15107"}
+{"input": "translate English to SQL: Who earns less than 8745?", "target": "SELECT EmpID, Salary FROM Employee WHERE Salary < 8745"}
+{"input": "translate English to SQL: Show employees earning less than 17348", "target": "SELECT EmpID, Salary FROM Employee WHERE Salary < 17348"}
+{"input": "translate English to SQL: Retrieve employees with pay less than 28625", "target": "SELECT EmpID, Salary FROM Employee WHERE Salary < 28625"}
+{"input": "translate English to SQL: Get all workers earning less than 9162", "target": "SELECT EmpID, Salary FROM Employee WHERE Salary < 9162"}
+{"input": "translate English to SQL: Employees with salary below 4207", "target": "SELECT EmpID, Salary FROM Employee WHERE Salary < 4207"}
+{"input": "translate English to SQL: Employees with salary below 20966", "target": "SELECT EmpID, Salary FROM Employee WHERE Salary < 20966"}
+{"input": "translate English to SQL: Employees with salary below 14650", "target": "SELECT EmpID, Salary FROM Employee WHERE Salary < 14650"}
+
+
+// between 100 data 
+
+{"input": "translate English to SQL: List employees with salary between 5000 and 10000", "target": "SELECT EmpID, Salary FROM Employee WHERE Salary BETWEEN 5000 AND 10000"}
+{"input": "translate English to SQL: List employees with salary between 84500 and 89500", "target": "SELECT EmpID, Salary FROM Employee WHERE Salary BETWEEN 84500 AND 89500"}
+{"input": "translate English to SQL: List employees with salary between 5000 and 10000", "target": "SELECT EmpID, Salary FROM Employee WHERE Salary BETWEEN 5000 AND 10000"}
+{"input": "translate English to SQL: Show staff with salaries ranging from 12000 to 18000", "target": "SELECT EmpID, Salary FROM Employee WHERE Salary BETWEEN 12000 AND 18000"}
+{"input": "translate English to SQL: Find employees who earn between 20000 and 30000", "target": "SELECT EmpID, Salary FROM Employee WHERE Salary BETWEEN 20000 AND 30000"}
+{"input": "translate English to SQL: Employees whose salaries fall between 10000 and 20000", "target": "SELECT EmpID, Salary FROM Employee WHERE Salary BETWEEN 10000 AND 20000"}
+{"input": "translate English to SQL: Retrieve staff earning from 15000 to 25000", "target": "SELECT EmpID, Salary FROM Employee WHERE Salary BETWEEN 15000 AND 25000"}
+{"input": "translate English to SQL: Display employees making between 17000 and 23000", "target": "SELECT EmpID, Salary FROM Employee WHERE Salary BETWEEN 17000 AND 23000"}
+{"input": "translate English to SQL: Get employee records where salary is between 9000 and 19000", "target": "SELECT EmpID, Salary FROM Employee WHERE Salary BETWEEN 9000 AND 19000"}
+{"input": "translate English to SQL: Show workers earning between 20000 and 35000", "target": "SELECT EmpID, Salary FROM Employee WHERE Salary BETWEEN 20000 AND 35000"}
+{"input": "translate English to SQL: Find all employees paid between 8000 and 16000", "target": "SELECT EmpID, Salary FROM Employee WHERE Salary BETWEEN 8000 AND 16000"}
+{"input": "translate English to SQL: List everyone with salaries from 11000 to 17000", "target": "SELECT EmpID, Salary FROM Employee WHERE Salary BETWEEN 11000 AND 17000"}
+{"input": "translate English to SQL: Get all employees earning between 7000 and 14000", "target": "SELECT EmpID, Salary FROM Employee WHERE Salary BETWEEN 7000 AND 14000"}
+{"input": "translate English to SQL: Retrieve salaries that fall between 6000 and 12000", "target": "SELECT EmpID, Salary FROM Employee WHERE Salary BETWEEN 6000 AND 12000"}
+{"input": "translate English to SQL: Who earns between 4000 and 9000", "target": "SELECT EmpID, Salary FROM Employee WHERE Salary BETWEEN 4000 AND 9000"}
+{"input": "translate English to SQL: Show all employees making between 5000 and 15000", "target": "SELECT EmpID, Salary FROM Employee WHERE Salary BETWEEN 5000 AND 15000"}
+{"input": "translate English to SQL: Employees with pay between 10000 and 13000", "target": "SELECT EmpID, Salary FROM Employee WHERE Salary BETWEEN 10000 AND 13000"}
+{"input": "translate English to SQL: List workers whose salaries are from 14000 to 20000", "target": "SELECT EmpID, Salary FROM Employee WHERE Salary BETWEEN 14000 AND 20000"}
+{"input": "translate English to SQL: Give me employees who make between 6000 and 9000", "target": "SELECT EmpID, Salary FROM Employee WHERE Salary BETWEEN 6000 AND 9000"}
+{"input": "translate English to SQL: Get employees with compensation between 16000 and 22000", "target": "SELECT EmpID, Salary FROM Employee WHERE Salary BETWEEN 16000 AND 22000"}
+{"input": "translate English to SQL: Show records of salaries between 7500 and 12500", "target": "SELECT EmpID, Salary FROM Employee WHERE Salary BETWEEN 7500 AND 12500"}
+{"input": "translate English to SQL: Fetch staff getting salary from 10000 to 15000", "target": "SELECT EmpID, Salary FROM Employee WHERE Salary BETWEEN 10000 AND 15000"}
+...
